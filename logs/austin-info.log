@@ -1,15 +1,27 @@
-2023-03-16 10:49:55.461 [main] INFO  com.hszy.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_362 on hesuziyedeMacBook-Pro.local with PID 24495 (/Users/hszy/austin-xxx/austin-web/target/classes started by hesuziye in /Users/hszy/austin-xxx)
-2023-03-16 10:49:55.464 [main] INFO  com.hszy.austin.AustinApplication - No active profile set, falling back to default profiles: default
-2023-03-16 10:49:57.209 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2023-03-16 10:49:57.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2023-03-16 10:49:57.219 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2023-03-16 10:49:57.219 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
-2023-03-16 10:49:57.291 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-03-16 10:49:57.292 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1764 ms
-2023-03-16 10:49:57.734 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2023-03-16 10:49:57.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-16 10:49:57.814 [main] INFO  com.hszy.austin.AustinApplication - Started AustinApplication in 2.996 seconds (JVM running for 4.247)
-2023-03-16 10:50:06.121 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-16 10:50:06.122 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-03-16 10:50:06.122 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-2023-03-16 10:50:06.142 [http-nio-8080-exec-1] INFO  com.hszy.austin.web.TestController - 使用log打印日志
+2023-03-17 10:55:35.606 [main] INFO  com.hszy.austin.AustinApplication - Starting AustinApplication using Java 1.8.0_362 on hesuziyedeMacBook-Pro.local with PID 1696 (/Users/hszy/austin-xxx/austin-web/target/classes started by hesuziye in /Users/hszy/austin-xxx)
+2023-03-17 10:55:35.610 [main] INFO  com.hszy.austin.AustinApplication - No active profile set, falling back to default profiles: default
+2023-03-17 10:55:36.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-17 10:55:36.369 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2023-03-17 10:55:36.859 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-03-17 10:55:36.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-17 10:55:36.868 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-17 10:55:36.868 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-03-17 10:55:36.930 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-17 10:55:36.930 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1262 ms
+2023-03-17 10:55:37.093 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-17 10:55:37.289 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-17 10:55:37.366 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-17 10:55:37.531 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-03-17 10:55:37.779 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-17 10:55:37.962 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-17 10:55:38.662 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-17 10:55:38.673 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-17 10:55:39.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-17 10:55:39.598 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-17 10:55:39.609 [main] INFO  com.hszy.austin.AustinApplication - Started AustinApplication in 4.488 seconds (JVM running for 5.417)
+2023-03-17 10:56:01.054 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-17 10:56:01.055 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-17 10:56:01.056 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-03-17 10:56:01.081 [http-nio-8080-exec-1] INFO  com.hszy.austin.web.TestController - 使用log打印日志
+2023-03-17 10:56:03.712 [http-nio-8080-exec-3] INFO  com.hszy.austin.web.TestController - 使用log打印日志
+2023-03-17 10:56:58.831 [http-nio-8080-exec-5] INFO  com.hszy.austin.web.TestController - 使用log打印日志
